@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #eaad2f;
+	font-family: 'Poppins', sans-serif !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campsters {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.header-img {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-image: url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    z-index: 0;
+}
+
+.text {
+    font-size: 2em;
+    color: white;
+}
+
+.logo {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
